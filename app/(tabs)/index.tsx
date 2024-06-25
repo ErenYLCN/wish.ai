@@ -1,7 +1,6 @@
 import { Image, StyleSheet, Platform } from "react-native";
 
 import { HelloWave } from "@/components/HelloWave";
-import OverlayMenu from "@/components/OverlayMenu";
 import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
@@ -9,6 +8,7 @@ import { ThemedView } from "@/components/ThemedView";
 export default function HomeScreen() {
   return (
     <>
+      {/* TODO: test overlay menu here  */}
       {/* <OverlayMenu /> */}
       <ParallaxScrollView
         headerBackgroundColor={{ light: "#A1CEDC", dark: "#1D3D47" }}
